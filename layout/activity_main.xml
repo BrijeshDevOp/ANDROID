@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true">
+
+    <Button
+        android:id="@+id/fragmentBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_columnWeight="1"
+        android:text="FRAGMENTS"/>
+
+    <Button
+        android:id="@+id/webViewBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_columnWeight="1"
+        android:text="WEB VIEW"/>
+
+    <Button
+        android:id="@+id/sendSMSBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_columnWeight="1"
+        android:text="SEND SMS"/>
+
+    <Button
+        android:id="@+id/recieveSMSBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_columnWeight="1"
+        android:text="RECEIVE SMS"/>
+
+    <Button
+        android:id="@+id/sendEmailBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_columnWeight="1"
+        android:text="SEND EMAIL"/>
+
+    <Button
+        android:id="@+id/openContactBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_columnWeight="1"
+        android:text="OPEN CONTACT"/>
+
+    <Button
+        android:id="@+id/openListView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_columnWeight="1"
+        android:text="LIST VIEW"/>
+
+    <Button
+        android:id="@+id/openAnimation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_columnWeight="1"
+        android:text="ANIMATION"/>
+</GridLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/wm1"
+        android:duration="100"
+        />
+
+    <item
+        android:drawable="@drawable/wm2"
+        android:duration="100"
+        />
+
+    <item
+        android:drawable="@drawable/wm3"
+        android:duration="100"
+        />
+
+    <item
+        android:drawable="@drawable/wm4"
+        android:duration="100"
+        />
+
+    <item
+        android:drawable="@drawable/wm5"
+        android:duration="100"
+        />
+
+    <item
+        android:drawable="@drawable/wm6"
+        android:duration="100"
+        />
+
+    <item
+        android:drawable="@drawable/wm7"
+        android:duration="100"
+        />
+
+    <item
+        android:drawable="@drawable/wm8"
+        android:duration="100"
+        />
+</animation-list>

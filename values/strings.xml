@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">APP</string>
+    <string-array name="fruits">
+        <item>Banana</item>
+        <item>Orange</item>
+        <item>Mango</item>
+        <item>Grape</item>
+    </string-array>
+<string name="app_color">COLORS</string>
+<string-array name="colors">
+    <item>Blue</item>
+    <item>Red</item>
+    <item>Green</item>
+    <item>Orange</item>
+</string-array>
+</resources>
